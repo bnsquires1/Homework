@@ -1,0 +1,23 @@
+.main_container {
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid whitesmoke
+}
+
+body {
+    border: 5px solid whitesmoke;
+    padding: 5%;
+    background-color: black;
+    color: white;
+}
+.education {
+display: flex;
+border: 2px solid whitesmoke;
+padding-left: 5%;
+}
+
+.cert {
+display: flex;
+border: 2px solid whitesmoke;
+
+}
