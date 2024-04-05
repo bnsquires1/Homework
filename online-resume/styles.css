@@ -1,7 +1,8 @@
 .main_container {
     display: flex;
     justify-content: flex-start;
-    border: 2px solid whitesmoke
+    border: 2px solid whitesmoke;
+    padding-left: 2%;
 }
 
 body {
@@ -12,12 +13,34 @@ body {
 }
 .education {
 display: flex;
-border: 2px solid whitesmoke;
-padding-left: 5%;
+width: 100%;
+padding-left: 2%;
 }
 
 .cert {
-display: flex;
-border: 2px solid whitesmoke;
+display:flex;
+width: 99%;
+border-top: 2px solid whitesmoke;
+padding-left: 2%;
 
+}
+.proEx {
+    border: 2px solid whitesmoke;
+padding-left: 2%;
+}
+
+.skills {
+display:flex;
+width: 50%;
+border: 2px solid whitesmoke;
+padding-left: 2%;
+}
+
+.mainbox {
+    display:flex;
+    border: 2px solid whitesmoke;
+}
+
+.leftbox {
+    width: 50%;
 }
