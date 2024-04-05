@@ -1,46 +1,57 @@
 .main_container {
     display: flex;
     justify-content: flex-start;
-    border: 2px solid whitesmoke;
-    padding-left: 2%;
+    border: 2px solid lightpink;
+    padding-left: 40%;
 }
 
 body {
-    border: 5px solid whitesmoke;
+    border: 5px solid lightsalmon;
     padding: 5%;
     background-color: black;
     color: white;
 }
+h1 {
+    color: lightsalmon
+}
+
+h2 {
+    color: lightcoral;
+}
 .education {
 display: flex;
+border-left: 1px solid lightpink
 width: 100%;
 padding-left: 2%;
+color: whitesmoke;
 }
 
 .cert {
 display:flex;
-width: 99%;
-border-top: 2px solid whitesmoke;
+width: 98%;
+border-top: 3px solid lightpink;
 padding-left: 2%;
 
 }
 .proEx {
-    border: 2px solid whitesmoke;
+    border: 2px solid lightpink;
 padding-left: 2%;
 }
 
 .skills {
 display:flex;
 width: 50%;
-border: 2px solid whitesmoke;
+border-top: .5px solid lightpink;
+border-left: 3px solid lightpink;
 padding-left: 2%;
 }
 
 .mainbox {
     display:flex;
-    border: 2px solid whitesmoke;
+    border: 1px solid lightpink;
 }
 
 .leftbox {
     width: 50%;
 }
+
