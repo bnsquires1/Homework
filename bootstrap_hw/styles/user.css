@@ -1,24 +1,9 @@
-.card-container {
-    width: 1100px;
-    height: 800px;
-    display: flex;
-    flex-flow: wrap row;
-    justify-content: space-between;
-    align-content: space-around;
-}
-
-.card-body {
-    border: 1px solid black;
-    width: 250px;
-}
-
-.img-container {
-    height: 150px;
-    width: 100px;
+body {
     background-color: gray;
 }
 
-.card-body p,
-.card-body h1 {
-    margin: 8px;
+.buttons {
+    display: flex;
+    width: 50px;
+    justify-content: center;
 }

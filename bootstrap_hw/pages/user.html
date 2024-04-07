@@ -1,8 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="../styles/index.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
     <title>User Profile</title>
     <style>
         .card-container {
@@ -29,30 +37,68 @@
         .card-body p,
         .card-body h1 {
             margin-bottom: auto;
+
+
         }
     </style>
 </head>
+
 <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">User Profile</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                            Account Center
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">General Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Password and Security</a></li>
+                            <li><a class="dropdown-item" href="#">Messages</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="buttons">
+    <button type="button" class="btn btn-secondary">Insights</button>
+    <button type="button" class="btn btn-secondary">Top Content</button>
+    <button type="button" class="btn btn-secondary">Tools</button>
+</div>
+<br>
+<br>
     <div class="card-container">
         <div class="card-body">
             <div class="img-container">
-                <img src="/images/image-example.svg" alt="" />
+                <img src="/images/image-example.svg" alt="profilepic" />
             </div>
             <h1>Jane Doe</h1>
             <p>
                 Atlanta, Georgia
-                </p>
-                
+            </p>
+            <button type="button" class="btn btn-primary">Messages</button>
         </div>
-            <div container class="input"></div>
-            <label for= "userName">Full Name</label><input type="text" name="FullName"><br>
-            <label for= "email">Email Address</label><input type="email" name="Email"><br>
-        
-    <ul>
-        <li><a class="active" href="#home">Home</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li style="float:right"><a href="#about">About</a></li>
-    </ul>
+        <br>
+        <br>
+
+        <div container class="input">
+            <label for="userName">Full Name</label><input type="text" name="FullName"><br>
+            <label for="email">Email Address</label><input type="email" name="Email"><br>
+            <label for="userName">Phone</label><input type="text" name="Phone"><br>
+            <label for="userName">Address</label><input type="text" name="Address"><br>
+        </div>
+
+
 </body>
+
 </html>
